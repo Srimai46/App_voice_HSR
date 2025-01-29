@@ -1,0 +1,915 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LAPTOP-RLN2R4L4</Machine>
+    <WindowsUser>sira4</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>com.companyname.projectmid</PackageIdentityName>
+    <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath></WindowsSdkPath>
+    <LayoutDir>C:\Users\sira4\source\repos\ProjectMid\ProjectMid\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectMid.runtimeconfig.json">
+      <PackagePath>ProjectMid.runtimeconfig.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectMid.dll">
+      <PackagePath>ProjectMid.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
+      <PackagePath>ProjectMid.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\Resources\Raw\AboutAssets.txt">
+      <PackagePath>AboutAssets.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\pom2SplashScreen.scale-100.png">
+      <PackagePath>pom2SplashScreen.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\pom2SplashScreen.scale-125.png">
+      <PackagePath>pom2SplashScreen.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\pom2SplashScreen.scale-150.png">
+      <PackagePath>pom2SplashScreen.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\pom2SplashScreen.scale-200.png">
+      <PackagePath>pom2SplashScreen.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\pom2SplashScreen.scale-400.png">
+      <PackagePath>pom2SplashScreen.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+      <PackagePath>OpenSans-Regular.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+      <PackagePath>OpenSans-Semibold.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sam.scale-100.webp">
+      <PackagePath>sam.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ryoko.scale-100.webp">
+      <PackagePath>ryoko.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\mitasuki.scale-100.webp">
+      <PackagePath>mitasuki.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misha.scale-100.webp">
+      <PackagePath>misha.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\jingyuan.scale-100.webp">
+      <PackagePath>jingyuan.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\jingliu.scale-100.webp">
+      <PackagePath>jingliu.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fu.scale-100.webp">
+      <PackagePath>fu.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bronya.scale-100.webp">
+      <PackagePath>bronya.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\avenv.scale-100.jpg">
+      <PackagePath>avenv.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sampov.scale-100.jpg">
+      <PackagePath>sampov.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sampo.scale-100.webp">
+      <PackagePath>sampo.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\mc3.scale-100.gif">
+      <PackagePath>mc3.scale-100.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\mc2.scale-100.gif">
+      <PackagePath>mc2.scale-100.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\himeko.scale-100.webp">
+      <PackagePath>himeko.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\hertav.scale-100.webp">
+      <PackagePath>hertav.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\drv.scale-100.webp">
+      <PackagePath>drv.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bs.scale-100.webp">
+      <PackagePath>bs.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\aya.scale-100.jpg">
+      <PackagePath>aya.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1LargeTile.scale-400.png">
+      <PackagePath>pom1LargeTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1LargeTile.scale-200.png">
+      <PackagePath>pom1LargeTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1LargeTile.scale-150.png">
+      <PackagePath>pom1LargeTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1LargeTile.scale-125.png">
+      <PackagePath>pom1LargeTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1LargeTile.scale-100.png">
+      <PackagePath>pom1LargeTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1WideTile.scale-400.png">
+      <PackagePath>pom1WideTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1WideTile.scale-200.png">
+      <PackagePath>pom1WideTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1WideTile.scale-150.png">
+      <PackagePath>pom1WideTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1WideTile.scale-125.png">
+      <PackagePath>pom1WideTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1WideTile.scale-100.png">
+      <PackagePath>pom1WideTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1MediumTile.scale-400.png">
+      <PackagePath>pom1MediumTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1MediumTile.scale-200.png">
+      <PackagePath>pom1MediumTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1MediumTile.scale-150.png">
+      <PackagePath>pom1MediumTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1MediumTile.scale-125.png">
+      <PackagePath>pom1MediumTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1MediumTile.scale-100.png">
+      <PackagePath>pom1MediumTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1SmallTile.scale-400.png">
+      <PackagePath>pom1SmallTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1SmallTile.scale-200.png">
+      <PackagePath>pom1SmallTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1SmallTile.scale-150.png">
+      <PackagePath>pom1SmallTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1SmallTile.scale-125.png">
+      <PackagePath>pom1SmallTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1SmallTile.scale-100.png">
+      <PackagePath>pom1SmallTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1StoreLogo.scale-400.png">
+      <PackagePath>pom1StoreLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1StoreLogo.scale-200.png">
+      <PackagePath>pom1StoreLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1StoreLogo.scale-150.png">
+      <PackagePath>pom1StoreLogo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1StoreLogo.scale-125.png">
+      <PackagePath>pom1StoreLogo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1StoreLogo.scale-100.png">
+      <PackagePath>pom1StoreLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1Logo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>pom1Logo.altform-lightunplated_targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1Logo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>pom1Logo.altform-lightunplated_targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1Logo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>pom1Logo.altform-lightunplated_targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1Logo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>pom1Logo.altform-lightunplated_targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1Logo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>pom1Logo.altform-lightunplated_targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>pom1Logo.altform-unplated_targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>pom1Logo.altform-unplated_targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>pom1Logo.altform-unplated_targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1Logo.altform-unplated_targetsize-24.png">
+      <PackagePath>pom1Logo.altform-unplated_targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>pom1Logo.altform-unplated_targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1Logo.targetsize-256.png">
+      <PackagePath>pom1Logo.targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1Logo.targetsize-48.png">
+      <PackagePath>pom1Logo.targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1Logo.targetsize-32.png">
+      <PackagePath>pom1Logo.targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1Logo.targetsize-24.png">
+      <PackagePath>pom1Logo.targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1Logo.targetsize-16.png">
+      <PackagePath>pom1Logo.targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1Logo.scale-400.png">
+      <PackagePath>pom1Logo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1Logo.scale-200.png">
+      <PackagePath>pom1Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1Logo.scale-150.png">
+      <PackagePath>pom1Logo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1Logo.scale-125.png">
+      <PackagePath>pom1Logo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1Logo.scale-100.png">
+      <PackagePath>pom1Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pom1.ico">
+      <PackagePath>pom1.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\yunli.scale-100.webp">
+      <PackagePath>yunli.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\yukongv.scale-100.webp">
+      <PackagePath>yukongv.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\yukong.scale-100.webp">
+      <PackagePath>yukong.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ruanmeiv.scale-100.webp">
+      <PackagePath>ruanmeiv.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ruanmei.scale-100.webp">
+      <PackagePath>ruanmei.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\miki.scale-100.webp">
+      <PackagePath>miki.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\mei.scale-100.webp">
+      <PackagePath>mei.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ito.scale-100.webp">
+      <PackagePath>ito.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\houko.scale-100.jpg">
+      <PackagePath>houko.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\deadgirl.scale-100.webp">
+      <PackagePath>deadgirl.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bsv.scale-100.jpg">
+      <PackagePath>bsv.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\boothillv.scale-100.webp">
+      <PackagePath>boothillv.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cfei.scale-100.webp">
+      <PackagePath>cfei.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\boothill.scale-100.webp">
+      <PackagePath>boothill.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\xueyi.scale-100.webp">
+      <PackagePath>xueyi.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\weltv.scale-100.jpeg">
+      <PackagePath>weltv.scale-100.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\welt.scale-100.webp">
+      <PackagePath>welt.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tribie.scale-100.png">
+      <PackagePath>tribie.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\rmc.scale-100.gif">
+      <PackagePath>rmc.scale-100.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\rina.scale-100.webp">
+      <PackagePath>rina.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\marchv.scale-100.png">
+      <PackagePath>marchv.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\march1.scale-100.webp">
+      <PackagePath>march1.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\herta.scale-100.webp">
+      <PackagePath>herta.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\haohao.scale-100.webp">
+      <PackagePath>haohao.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dr.scale-100.webp">
+      <PackagePath>dr.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\chibiaven.scale-100.png">
+      <PackagePath>chibiaven.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bailuv.scale-100.webp">
+      <PackagePath>bailuv.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\shion.scale-100.jpg">
+      <PackagePath>shion.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\servalv.scale-100.jpeg">
+      <PackagePath>servalv.scale-100.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\natashav.scale-100.webp">
+      <PackagePath>natashav.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\natasha.scale-100.webp">
+      <PackagePath>natasha.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\kafka.scale-100.webp">
+      <PackagePath>kafka.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\jun.scale-100.webp">
+      <PackagePath>jun.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fei.scale-100.webp">
+      <PackagePath>fei.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\chibijade.scale-100.webp">
+      <PackagePath>chibijade.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bg2.scale-100.png">
+      <PackagePath>bg2.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\seele.scale-100.webp">
+      <PackagePath>seele.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\satoshi.scale-100.jpg">
+      <PackagePath>satoshi.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\mcm.scale-100.jpeg">
+      <PackagePath>mcm.scale-100.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\mcf.scale-100.webp">
+      <PackagePath>mcf.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\kawase.scale-100.jpg">
+      <PackagePath>kawase.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\kafkav.scale-100.jpg">
+      <PackagePath>kafkav.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ff.scale-100.webp">
+      <PackagePath>ff.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\chibikafka.scale-100.png">
+      <PackagePath>chibikafka.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bailu.scale-100.webp">
+      <PackagePath>bailu.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\yuanv.scale-100.webp">
+      <PackagePath>yuanv.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\yohei.scale-100.webp">
+      <PackagePath>yohei.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\yanv.scale-100.jpg">
+      <PackagePath>yanv.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\yanqing.scale-100.webp">
+      <PackagePath>yanqing.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\robinv.scale-100.webp">
+      <PackagePath>robinv.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\robin.scale-100.webp">
+      <PackagePath>robin.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\mc1.scale-100.gif">
+      <PackagePath>mc1.scale-100.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\matsui.scale-100.jpeg">
+      <PackagePath>matsui.scale-100.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\hook.scale-100.webp">
+      <PackagePath>hook.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\himekov.scale-100.webp">
+      <PackagePath>himekov.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dreadv.scale-100.jpg">
+      <PackagePath>dreadv.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\chibilingcha.scale-100.webp">
+      <PackagePath>chibilingcha.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\agenti.scale-100.webp">
+      <PackagePath>agenti.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tribbiev.scale-100.webp">
+      <PackagePath>tribbiev.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\train.scale-100.png">
+      <PackagePath>train.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\topazv.scale-100.jpg">
+      <PackagePath>topazv.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\topaz.scale-100.webp">
+      <PackagePath>topaz.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\rappav.scale-100.jpg">
+      <PackagePath>rappav.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\rappa.scale-100.webp">
+      <PackagePath>rappa.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\malhav.scale-100.webp">
+      <PackagePath>malhav.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\malha.scale-100.webp">
+      <PackagePath>malha.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\hanyav.scale-100.jpg">
+      <PackagePath>hanyav.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\hanya.scale-100.webp">
+      <PackagePath>hanya.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\feiv.scale-100.webp">
+      <PackagePath>feiv.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\chibilobin.scale-100.png">
+      <PackagePath>chibilobin.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\blade.scale-100.webp">
+      <PackagePath>blade.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\serval.scale-100.webp">
+      <PackagePath>serval.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\seelev.scale-100.webp">
+      <PackagePath>seelev.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\mozev.scale-100.jpg">
+      <PackagePath>mozev.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\moze.scale-100.webp">
+      <PackagePath>moze.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\jadev.scale-100.jpg">
+      <PackagePath>jadev.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\jade.scale-100.webp">
+      <PackagePath>jade.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fuv.scale-100.jpg">
+      <PackagePath>fuv.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\chibimach.scale-100.png">
+      <PackagePath>chibimach.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\astav.scale-100.webp">
+      <PackagePath>astav.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\susgang.scale-100.webp">
+      <PackagePath>susgang.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sunday.scale-100.webp">
+      <PackagePath>sunday.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\out.scale-100.webp">
+      <PackagePath>out.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\neiv.scale-100.jpeg">
+      <PackagePath>neiv.scale-100.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-100.png">
+      <PackagePath>logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\lingsha.scale-100.webp">
+      <PackagePath>lingsha.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\gepardv.scale-100.jpeg">
+      <PackagePath>gepardv.scale-100.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\chibitopaz.scale-100.png">
+      <PackagePath>chibitopaz.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\agentiv.scale-100.jpeg">
+      <PackagePath>agentiv.scale-100.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sundatv.scale-100.webp">
+      <PackagePath>sundatv.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sparklev.scale-100.webp">
+      <PackagePath>sparklev.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pelav.scale-100.jpg">
+      <PackagePath>pelav.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pela.scale-100.webp">
+      <PackagePath>pela.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\luka.scale-100.webp">
+      <PackagePath>luka.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo1.scale-100.png">
+      <PackagePath>logo1.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\gepard.scale-100.webp">
+      <PackagePath>gepard.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\clara.scale-100.webp">
+      <PackagePath>clara.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\arlan.scale-100.webp">
+      <PackagePath>arlan.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\theherta.scale-100.webp">
+      <PackagePath>theherta.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sushangv.scale-100.webp">
+      <PackagePath>sushangv.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\naganawa.scale-100.webp">
+      <PackagePath>naganawa.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\mydei.scale-100.png">
+      <PackagePath>mydei.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\luocha.scale-100.webp">
+      <PackagePath>luocha.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\lukav.scale-100.webp">
+      <PackagePath>lukav.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\gallagher.scale-100.webp">
+      <PackagePath>gallagher.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cyun.scale-100.webp">
+      <PackagePath>cyun.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asta.scale-100.webp">
+      <PackagePath>asta.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sparkle.scale-100.webp">
+      <PackagePath>sparkle.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sora.scale-100.webp">
+      <PackagePath>sora.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pa1.scale-100.webp">
+      <PackagePath>pa1.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\outv.scale-100.webp">
+      <PackagePath>outv.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\lynx.scale-100.webp">
+      <PackagePath>lynx.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\luochav.scale-100.jpeg">
+      <PackagePath>luochav.scale-100.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\gui.scale-100.webp">
+      <PackagePath>gui.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\danheng1.scale-100.webp">
+      <PackagePath>danheng1.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\aven.scale-100.webp">
+      <PackagePath>aven.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tomori.scale-100.webp">
+      <PackagePath>tomori.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tingyun.scale-100.webp">
+      <PackagePath>tingyun.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\qingv.scale-100.jpg">
+      <PackagePath>qingv.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\qingque.scale-100.webp">
+      <PackagePath>qingque.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\maeda.scale-100.webp">
+      <PackagePath>maeda.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\lynxv.scale-100.webp">
+      <PackagePath>lynxv.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\guiv.scale-100.webp">
+      <PackagePath>guiv.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\danheng2.scale-100.webp">
+      <PackagePath>danheng2.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\aglaea.scale-100.png">
+      <PackagePath>aglaea.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\source\repos\ProjectMid\ProjectMid\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectMid.deps.json">
+      <PackagePath>ProjectMid.deps.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.54\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
+      <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.54\lib\net8.0\WinRT.Runtime.dll">
+      <PackagePath>WinRT.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.extensions.configuration\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.dll">
+      <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.extensions.configuration.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.Configuration.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.extensions.dependencyinjection\8.0.1\lib\net8.0\Microsoft.Extensions.DependencyInjection.dll">
+      <PackagePath>Microsoft.Extensions.DependencyInjection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\8.0.2\lib\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.extensions.logging\8.0.1\lib\net8.0\Microsoft.Extensions.Logging.dll">
+      <PackagePath>Microsoft.Extensions.Logging.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.extensions.logging.abstractions\8.0.2\lib\net8.0\Microsoft.Extensions.Logging.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.Logging.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.extensions.logging.debug\8.0.1\lib\net8.0\Microsoft.Extensions.Logging.Debug.dll">
+      <PackagePath>Microsoft.Extensions.Logging.Debug.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.extensions.options\8.0.2\lib\net8.0\Microsoft.Extensions.Options.dll">
+      <PackagePath>Microsoft.Extensions.Options.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.extensions.primitives\8.0.0\lib\net8.0\Microsoft.Extensions.Primitives.dll">
+      <PackagePath>Microsoft.Extensions.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.graphics.win2d\1.0.5.1\lib\net5.0-windows10.0.17763.0\Microsoft.Graphics.Canvas.Interop.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.Interop.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.controls.compatibility\8.0.3\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.dll">
+      <PackagePath>Microsoft.Maui.Controls.Compatibility.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.dll">
+      <PackagePath>Microsoft.Maui.Controls.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.controls.xaml\8.0.3\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Xaml.dll">
+      <PackagePath>Microsoft.Maui.Controls.Xaml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.core\8.0.3\lib\net8.0-windows10.0.19041\Microsoft.Maui.dll">
+      <PackagePath>Microsoft.Maui.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.essentials\8.0.3\lib\net8.0-windows10.0.19041\Microsoft.Maui.Essentials.dll">
+      <PackagePath>Microsoft.Maui.Essentials.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.graphics\8.0.3\lib\net8.0-windows10.0.19041\Microsoft.Maui.Graphics.dll">
+      <PackagePath>Microsoft.Maui.Graphics.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.graphics.win2d.winui.desktop\8.0.3\lib\net8.0-windows10.0.19041\Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll">
+      <PackagePath>Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll">
+      <PackagePath>Microsoft.InteractiveExperiences.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.WinUI.dll">
+      <PackagePath>Microsoft.WinUI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppLifecycle.Projection.dll">
+      <PackagePath>Microsoft.Windows.AppLifecycle.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppNotifications.Builder.Projection.dll">
+      <PackagePath>Microsoft.Windows.AppNotifications.Builder.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppNotifications.Projection.dll">
+      <PackagePath>Microsoft.Windows.AppNotifications.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll">
+      <PackagePath>Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.Resources.Projection.dll">
+      <PackagePath>Microsoft.Windows.ApplicationModel.Resources.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll">
+      <PackagePath>Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.PushNotifications.Projection.dll">
+      <PackagePath>Microsoft.Windows.PushNotifications.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Security.AccessControl.Projection.dll">
+      <PackagePath>Microsoft.Windows.Security.AccessControl.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.System.Power.Projection.dll">
+      <PackagePath>Microsoft.Windows.System.Power.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.System.Projection.dll">
+      <PackagePath>Microsoft.Windows.System.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Widgets.Projection.dll">
+      <PackagePath>Microsoft.Windows.Widgets.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
+      <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Release.Net.dll">
+      <PackagePath>Microsoft.WindowsAppRuntime.Release.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\plugin.maui.audio\3.0.1\lib\net8.0-windows10.0.19041\Plugin.Maui.Audio.dll">
+      <PackagePath>Plugin.Maui.Audio.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>ar\Microsoft.Maui.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\ca\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>ca\Microsoft.Maui.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\cs\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>cs\Microsoft.Maui.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\da\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>da\Microsoft.Maui.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\de\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>de\Microsoft.Maui.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\el\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>el\Microsoft.Maui.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\es\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>es\Microsoft.Maui.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\fi\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>fi\Microsoft.Maui.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\fr\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>fr\Microsoft.Maui.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\he\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>he\Microsoft.Maui.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\hi\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>hi\Microsoft.Maui.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\hr\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>hr\Microsoft.Maui.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\hu\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>hu\Microsoft.Maui.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\id\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>id\Microsoft.Maui.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\it\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>it\Microsoft.Maui.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\ja\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>ja\Microsoft.Maui.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\ko\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>ko\Microsoft.Maui.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\ms\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>ms\Microsoft.Maui.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\nb\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>nb\Microsoft.Maui.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\nl\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>nl\Microsoft.Maui.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\pl\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>pl\Microsoft.Maui.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\pt-BR\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>pt-BR\Microsoft.Maui.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\pt\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>pt\Microsoft.Maui.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\ro\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>ro\Microsoft.Maui.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\ru\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>ru\Microsoft.Maui.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\sk\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>sk\Microsoft.Maui.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\sv\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>sv\Microsoft.Maui.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\th\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>th\Microsoft.Maui.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\tr\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>tr\Microsoft.Maui.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\uk\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>uk\Microsoft.Maui.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\vi\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>vi\Microsoft.Maui.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\zh-HK\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>zh-HK\Microsoft.Maui.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\zh-Hans\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>zh-Hans\Microsoft.Maui.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\zh-Hant\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>zh-Hant\Microsoft.Maui.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.graphics.win2d\1.0.5.1\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
+      <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\XamlDiagnostics\Mobile\Microsoft.Maui.Controls.HotReload.Forms.dll">
+      <PackagePath>Microsoft.Maui.Controls.HotReload.Forms.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\XamlDiagnostics\Mobile\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll">
+      <PackagePath>Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\XamlDiagnostics\Mobile\Microsoft.VisualStudio.DesignTools.TapContract.dll">
+      <PackagePath>Microsoft.VisualStudio.DesignTools.TapContract.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.controls.compatibility\8.0.3\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
+      <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.pri">
+      <PackagePath>Microsoft.Maui.Controls.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sira4\.nuget\packages\microsoft.maui.core\8.0.3\lib\net8.0-windows10.0.19041\Microsoft.Maui.pri">
+      <PackagePath>Microsoft.Maui.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\sira4\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.3.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.3</Name>
+      <Version>3000.934.1904.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.3, MinVersion = 3000.934.1904.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\sira4\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.3.msix</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\sira4\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.3.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.3</Name>
+      <Version>3000.934.1904.0</Version>
+      <Architecture>win32</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.3, MinVersion = 3000.934.1904.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\sira4\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.3.msix</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\sira4\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.3.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.3</Name>
+      <Version>3000.934.1904.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.3, MinVersion = 3000.934.1904.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\sira4\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.3.msix</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\sira4\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.3.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.3</Name>
+      <Version>3000.934.1904.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.3, MinVersion = 3000.934.1904.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\sira4\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.3.msix</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

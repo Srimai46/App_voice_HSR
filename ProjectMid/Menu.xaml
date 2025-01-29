@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjectMid.Menu"
+             Title="PAHT"
+             BackgroundColor="Azure">
+
+    <Grid>
+        <!-- Full-Page Background Image -->
+        <Image Source="bg2.jpg"
+               Aspect="AspectFill"
+               HorizontalOptions="FillAndExpand"
+               VerticalOptions="FillAndExpand" />
+
+        <!-- Centered Logo -->
+        <Image Source="logo1.png"
+               Aspect="AspectFit"
+               HeightRequest="300"
+               WidthRequest="300"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               Opacity="0.5" />
+
+        <!-- Content Overlay -->
+        <VerticalStackLayout Padding="20" Opacity="0.9">
+            <ScrollView>
+                <Grid RowSpacing="20" ColumnSpacing="20">
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Button x:Name="page1"
+                            Clicked="page1_Clicked"
+                            Grid.Row="0" Grid.Column="0"
+                            BackgroundColor="#262626"
+                            HeightRequest="150"
+                            WidthRequest="150"
+                            Margin="0,0,0,20" />
+
+                    <Button x:Name="page2"
+                            Clicked="page2_Clicked"
+                            Grid.Row="0" Grid.Column="1"
+                            BackgroundColor="#262626"
+                            HeightRequest="150"
+                            WidthRequest="150"
+                            Margin="0,0,0,20" />
+
+                    <Button x:Name="page3"
+                            Clicked="page3_Clicked"
+                            Grid.Row="1" Grid.Column="0"
+                            BackgroundColor="#262626"
+                            HeightRequest="150"
+                            WidthRequest="150"
+                            Margin="0,0,0,20" />
+
+                    <Button x:Name="page4"
+                            Clicked="page4_Clicked"
+                            Grid.Row="1" Grid.Column="1"
+                            BackgroundColor="#262626"
+                            HeightRequest="150"
+                            WidthRequest="150"
+                            Margin="0,0,0,20" />
+
+                    <Button x:Name="page5"
+                            Clicked="page5_Clicked"
+                            Grid.Row="2" Grid.Column="0"
+                            BackgroundColor="#262626"
+                            HeightRequest="150"
+                            WidthRequest="150"
+                            Margin="0,0,0,20" />
+
+                    <Button x:Name="page6"
+                            Clicked="page6_Clicked"
+                            Grid.Row="2" Grid.Column="1"
+                            BackgroundColor="#262626"
+                            HeightRequest="150"
+                            WidthRequest="150"
+                            Margin="0,0,0,20" />
+
+                    <Button x:Name="page7"
+                            Clicked="page7_Clicked"
+                            Grid.Row="3" Grid.Column="0"
+                            BackgroundColor="#262626"
+                            HeightRequest="150"
+                            WidthRequest="150"
+                            Margin="0,0,0,20" />
+
+                    <Button x:Name="page8"
+                            Clicked="page8_Clicked"
+                            Grid.Row="3" Grid.Column="1"
+                            BackgroundColor="#262626"
+                            HeightRequest="150"
+                            WidthRequest="150"
+                            Margin="0,0,0,20" />
+                </Grid>
+            </ScrollView>
+        </VerticalStackLayout>
+
+        <!-- Images Section -->
+        <!-- เฟื่องฟู -->
+        <Image Source="chibilingcha.webp"
+               Aspect="AspectFit"
+               HeightRequest="80"
+               WidthRequest="100"
+               HorizontalOptions="Start"
+               VerticalOptions="End"
+               Margin="0,0,-10,140" />
+
+        <Image Source="pa7.webp"
+               Aspect="AspectFit"
+               HeightRequest="180"
+               WidthRequest="120"
+               HorizontalOptions="Start"
+               VerticalOptions="Start"
+               Margin="50,575,-10,0" />
+
+        <!-- ความทรงจำ -->
+        <Image Source="chibimach.png"
+               Aspect="AspectFit"
+               HeightRequest="80"
+               WidthRequest="100"
+               HorizontalOptions="End"
+               VerticalOptions="End"
+               Margin="0,0,-10,140" />
+
+        <Image Source="pa8.webp"
+               Aspect="AspectFit"
+               HeightRequest="180"
+               WidthRequest="120"
+               HorizontalOptions="Start"
+               VerticalOptions="Start"
+               Margin="245,575,0,0" />
+
+        <!-- ทำลายล้าง -->
+        <Image Source="cyun.webp"
+               Aspect="AspectFit"
+               HeightRequest="80"
+               WidthRequest="100"
+               HorizontalOptions="Start"
+               VerticalOptions="Start"
+               Margin="0,0,-10,140" />
+
+        <Image Source="pa1.webp"
+               Aspect="AspectFit"
+               HeightRequest="180"
+               WidthRequest="120"
+               HorizontalOptions="Start"
+               VerticalOptions="Start"
+               Margin="50,5,0,0" />
+
+        <!-- ล่าสังหาร -->
+        <Image Source="cfei.webp"
+               Aspect="AspectFit"
+               HeightRequest="80"
+               WidthRequest="100"
+               HorizontalOptions="Start"
+               VerticalOptions="Start"
+               Margin="320,0,-10,140" />
+
+        <Image Source="pa2.webp"
+               Aspect="AspectFit"
+               HeightRequest="180"
+               WidthRequest="120"
+               HorizontalOptions="Start"
+               VerticalOptions="Start"
+               Margin="245,5,0,0" />
+
+        <!-- ลบล้าง -->
+        <Image Source="chibikafka.png"
+               Aspect="AspectFit"
+               HeightRequest="80"
+               WidthRequest="100"
+               HorizontalOptions="Start"
+               VerticalOptions="Start"
+               Margin="0,370,-10,140" />
+
+        <Image Source="pa5.webp"
+               Aspect="AspectFit"
+               HeightRequest="180"
+               WidthRequest="120"
+               HorizontalOptions="Start"
+               VerticalOptions="Start"
+               Margin="50,385,0,0" />
+
+        <!-- อนุลุก -->
+        <Image Source="chibiaven.png"
+               Aspect="AspectFit"
+               HeightRequest="80"
+               WidthRequest="100"
+               HorizontalOptions="Start"
+               VerticalOptions="Start"
+               Margin="320,370,-10,140" />
+
+        <Image Source="pa6.webp"
+               Aspect="AspectFit"
+               HeightRequest="180"
+               WidthRequest="120"
+               HorizontalOptions="Start"
+               VerticalOptions="Start"
+               Margin="245,385,0,0" />
+
+        <!-- ปัญญา -->
+        <Image Source="chibijade.webp"
+               Aspect="AspectFit"
+               HeightRequest="80"
+               WidthRequest="100"
+               HorizontalOptions="Start"
+               VerticalOptions="Start"
+               Margin="0,180,-10,140" />
+
+        <Image Source="pa3.webp"
+               Aspect="AspectFit"
+               HeightRequest="180"
+               WidthRequest="120"
+               HorizontalOptions="Start"
+               VerticalOptions="Start"
+               Margin="50,195,0,0" />
+
+        <!-- ประสาน -->
+        <Image Source="chibilobin.png"
+               Aspect="AspectFit"
+               HeightRequest="80"
+               WidthRequest="100"
+               HorizontalOptions="Start"
+               VerticalOptions="Start"
+               Margin="320,180,-10,140" />
+
+        <Image Source="pa4.webp"
+               Aspect="AspectFit"
+               HeightRequest="180"
+               WidthRequest="120"
+               HorizontalOptions="Start"
+               VerticalOptions="Start"
+               Margin="245,195,0,0" />
+    </Grid>
+
+</ContentPage>

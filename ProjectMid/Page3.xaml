@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjectMid.Page3"
+             Title="Erudition">
+    <Grid>
+        <!-- ภาพพื้นหลัง -->
+        <Image 
+            Source="bg2.jpg"
+            Aspect="AspectFill"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand" />
+
+        <!-- เนื้อหาที่สามารถเลื่อนดูได้ -->
+        <ScrollView>
+            <VerticalStackLayout>
+
+                <!-- The Herta -->
+                <Frame 
+                    BorderColor="Gray"
+                    BackgroundColor="#1c2140"
+                    Padding="20"
+                    HasShadow="True"
+                    CornerRadius="20"
+                    HeightRequest="680"
+                    WidthRequest="350"
+                    Margin="30">
+                    <VerticalStackLayout Spacing="5">
+                        <Label 
+                            Text="The Herta"
+                            FontSize="30"
+                            TextColor="Red"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center"
+                            FontAttributes="Bold" />
+
+                        <Frame 
+                            BorderColor="Gray"
+                            BackgroundColor="White"
+                            Padding="10"
+                            HasShadow="True"
+                            CornerRadius="20"
+                            HeightRequest="200"
+                            WidthRequest="200"
+                            Margin="10"
+                            Opacity="1">
+                            <Image 
+                                Source="theherta.webp"
+                                HeightRequest="500"
+                                WidthRequest="500" />
+                        </Frame>
+
+                        <Label 
+                            Text="Haruka Yamazaki"
+                            FontSize="30"
+                            TextColor="Red"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center"
+                            FontAttributes="Bold" />
+
+                        <Frame 
+                            BorderColor="Gray"
+                            BackgroundColor="LightGray"
+                            Padding="10"
+                            HasShadow="True"
+                            CornerRadius="20"
+                            HeightRequest="200"
+                            WidthRequest="200"
+                            Margin="10"
+                            Opacity="1">
+                            <Image 
+                                Source="hertav.webp"
+                                HeightRequest="300"
+                                WidthRequest="250"
+                                Margin="20,50,0,0" />
+                        </Frame>
+
+                        <HorizontalStackLayout>
+                            <Button 
+                                Text="Character Info"
+                                BackgroundColor="Red"
+                                TextColor="White"
+                                HorizontalOptions="Start"
+                                VerticalOptions="End"
+                                Clicked="theherta"
+                                Margin="5" />
+                            <Button 
+                                Text="Voice Actor Info"
+                                BackgroundColor="Green"
+                                TextColor="White"
+                                HorizontalOptions="End"
+                                VerticalOptions="End"
+                                Clicked="thehertav"
+                                Margin="50,0,0,5" />
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+                </Frame>
+
+
+                <!-- Herta -->
+                <Frame BorderColor="Gray"
+       BackgroundColor="#1c2140"
+       Padding="20"
+       HasShadow="True"
+       CornerRadius="20"
+       HeightRequest="680"
+       WidthRequest="350"
+       Margin="30">
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Herta"
+               FontSize="30"
+               TextColor="Red"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               FontAttributes="Bold" />
+
+                        <Frame BorderColor="Gray"
+               BackgroundColor="White"
+               Padding="10"
+               HasShadow="True"
+               CornerRadius="20"
+               HeightRequest="200"
+               WidthRequest="200"
+               Margin="10">
+                            <Image Source="herta.webp"
+                   HeightRequest="450"
+                   WidthRequest="500"
+                                   Margin="20,110,0,0"/>
+                        </Frame>
+
+                        <Label Text="Haruka Yamazaki"
+               FontSize="30"
+               TextColor="Red"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               FontAttributes="Bold" />
+
+                        <Frame BorderColor="Gray"
+               BackgroundColor="LightGray"
+               Padding="10"
+               HasShadow="True"
+               CornerRadius="20"
+               HeightRequest="200"
+               WidthRequest="200"
+               Margin="10">
+                            <Image Source="hertav.jpg"
+                   HeightRequest="300"
+                   WidthRequest="250"
+                   Margin="20,50,0,0" />
+                        </Frame>
+
+                        <HorizontalStackLayout>
+                            <Button Text="Character Info"
+                    BackgroundColor="Red"
+                    TextColor="White"
+                    HorizontalOptions="Start"
+                    VerticalOptions="End"
+                    Clicked="herta"
+                    Margin="5" />
+                            <Button Text="Voice Actor Info"
+                    BackgroundColor="Green"
+                    TextColor="White"
+                    HorizontalOptions="End"
+                    VerticalOptions="End"
+                    Clicked="thehertav"
+                    Margin="50,0,0,5" />
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Rappa -->
+                <Frame BorderColor="Gray"
+       BackgroundColor="#1c2140"
+       Padding="20"
+       HasShadow="True"
+       CornerRadius="20"
+       HeightRequest="680"
+       WidthRequest="350"
+       Margin="30">
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Rappa"
+               FontSize="30"
+               TextColor="Red"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               FontAttributes="Bold" />
+
+                        <Frame BorderColor="Gray"
+               BackgroundColor="White"
+               Padding="10"
+               HasShadow="True"
+               CornerRadius="20"
+               HeightRequest="200"
+               WidthRequest="200"
+               Margin="10">
+                            <Image Source="rappa.webp"
+                   HeightRequest="500"
+                   WidthRequest="500" 
+                                   Margin="0,0,70,80"/>
+                        </Frame>
+
+                        <Label Text="Megumi Han"
+               FontSize="30"
+               TextColor="Red"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               FontAttributes="Bold" />
+
+                        <Frame BorderColor="Gray"
+               BackgroundColor="LightGray"
+               Padding="10"
+               HasShadow="True"
+               CornerRadius="20"
+               HeightRequest="200"
+               WidthRequest="200"
+               Margin="10">
+                            <Image Source="rappav.jpg"
+                   HeightRequest="350"
+                   WidthRequest="250"
+                   Margin="0,80,20,0" />
+                        </Frame>
+
+                        <HorizontalStackLayout>
+                            <Button Text="Character Info"
+                    BackgroundColor="Red"
+                    TextColor="White"
+                    HorizontalOptions="Start"
+                    VerticalOptions="End"
+                    Clicked="rappa"
+                    Margin="5" />
+                            <Button Text="Voice Actor Info"
+                    BackgroundColor="Green"
+                    TextColor="White"
+                    HorizontalOptions="End"
+                    VerticalOptions="End"
+                    Clicked="rappav"
+                    Margin="50,0,0,5" />
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Jade -->
+                <Frame BorderColor="Gray"
+       BackgroundColor="#1c2140"
+       Padding="20"
+       HasShadow="True"
+       CornerRadius="20"
+       HeightRequest="680"
+       WidthRequest="350"
+       Margin="30">
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Jade"
+               FontSize="30"
+               TextColor="Red"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               FontAttributes="Bold" />
+
+                        <Frame BorderColor="Gray"
+               BackgroundColor="White"
+               Padding="10"
+               HasShadow="True"
+               CornerRadius="20"
+               HeightRequest="200"
+               WidthRequest="200"
+               Margin="10">
+                            <Image Source="jade.webp"
+                   HeightRequest="600"
+                   WidthRequest="600" 
+                                   Margin="0,170,10,0"/>
+                        </Frame>
+
+                        <Label Text="Kotono Mitsuishi"
+               FontSize="30"
+               TextColor="Red"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               FontAttributes="Bold" />
+
+                        <Frame BorderColor="Gray"
+               BackgroundColor="LightGray"
+               Padding="10"
+               HasShadow="True"
+               CornerRadius="20"
+               HeightRequest="200"
+               WidthRequest="200"
+               Margin="10">
+                            <Image Source="jadev.jpg"
+                   HeightRequest="300"
+                   WidthRequest="250"
+                   Margin="0,50,0,0" />
+                        </Frame>
+
+                        <HorizontalStackLayout>
+                            <Button Text="Character Info"
+                    BackgroundColor="Red"
+                    TextColor="White"
+                    HorizontalOptions="Start"
+                    VerticalOptions="End"
+                    Clicked="jade"
+                    Margin="5" />
+                            <Button Text="Voice Actor Info"
+                    BackgroundColor="Green"
+                    TextColor="White"
+                    HorizontalOptions="End"
+                    VerticalOptions="End"
+                    Clicked="jadev"
+                    Margin="50,0,0,5" />
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Argenti -->
+                <Frame BorderColor="Gray"
+       BackgroundColor="#1c2140"
+       Padding="20"
+       HasShadow="True"
+       CornerRadius="20"
+       HeightRequest="680"
+       WidthRequest="350"
+       Margin="30">
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Argenti"
+               FontSize="30"
+               TextColor="Red"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               FontAttributes="Bold" />
+
+                        <Frame BorderColor="Gray"
+               BackgroundColor="White"
+               Padding="10"
+               HasShadow="True"
+               CornerRadius="20"
+               HeightRequest="200"
+               WidthRequest="200"
+               Margin="10">
+                            <Image Source="agenti.webp"
+                   HeightRequest="600"
+                   WidthRequest="600" 
+                                   Margin="200,100,0,0"/>
+                        </Frame>
+
+                        <Label Text="Shinnosuke Tachibana"
+               FontSize="28"
+               TextColor="Red"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               FontAttributes="Bold" />
+
+                        <Frame BorderColor="Gray"
+               BackgroundColor="LightGray"
+               Padding="10"
+               HasShadow="True"
+               CornerRadius="20"
+               HeightRequest="200"
+               WidthRequest="200"
+               Margin="10">
+                            <Image Source="agentiv.jpg"
+                   HeightRequest="400"
+                   WidthRequest="250"
+                   Margin="40,120,0,0" />
+                        </Frame>
+
+                        <HorizontalStackLayout>
+                            <Button Text="Character Info"
+                    BackgroundColor="Red"
+                    TextColor="White"
+                    HorizontalOptions="Start"
+                    VerticalOptions="End"
+                    Clicked="agenti"
+                    Margin="5" />
+                            <Button Text="Voice Actor Info"
+                    BackgroundColor="Green"
+                    TextColor="White"
+                    HorizontalOptions="End"
+                    VerticalOptions="End"
+                    Clicked="agentiv"
+                    Margin="50,0,0,5" />
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Jing Yuan -->
+                <Frame BorderColor="Gray"
+       BackgroundColor="#1c2140"
+       Padding="20"
+       HasShadow="True"
+       CornerRadius="20"
+       HeightRequest="680"
+       WidthRequest="350"
+       Margin="30">
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Jing Yuan"
+               FontSize="30"
+               TextColor="Red"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               FontAttributes="Bold" />
+
+                        <Frame BorderColor="Gray"
+               BackgroundColor="White"
+               Padding="10"
+               HasShadow="True"
+               CornerRadius="20"
+               HeightRequest="200"
+               WidthRequest="200"
+               Margin="10">
+                            <Image Source="jingyuan.webp"
+                   HeightRequest="500"
+                   WidthRequest="500" />
+                        </Frame>
+
+                        <Label Text="Ono Daisuke"
+               FontSize="30"
+               TextColor="Red"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               FontAttributes="Bold" />
+
+                        <Frame BorderColor="Gray"
+               BackgroundColor="LightGray"
+               Padding="10"
+               HasShadow="True"
+               CornerRadius="20"
+               HeightRequest="200"
+               WidthRequest="200"
+               Margin="10">
+                            <Image Source="yuanv.webp"
+                   HeightRequest="400"
+                   WidthRequest="250"
+                   Margin="0,75,0,0" />
+                        </Frame>
+
+                        <HorizontalStackLayout>
+                            <Button Text="Character Info"
+                    BackgroundColor="Red"
+                    TextColor="White"
+                    HorizontalOptions="Start"
+                    VerticalOptions="End"
+                    Clicked="yuan"
+                    Margin="5" />
+                            <Button Text="Voice Actor Info"
+                    BackgroundColor="Green"
+                    TextColor="White"
+                    HorizontalOptions="End"
+                    VerticalOptions="End"
+                    Clicked="yuanv"
+                    Margin="50,0,0,5" />
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Qingque -->
+                <Frame BorderColor="Gray"
+BackgroundColor="#1c2140"
+Padding="20"
+HasShadow="True"
+CornerRadius="20"
+HeightRequest="680"
+WidthRequest="350"
+Margin="30">
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Qingque"
+        FontSize="30"
+        TextColor="Red"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        FontAttributes="Bold" />
+
+                        <Frame BorderColor="Gray"
+        BackgroundColor="White"
+        Padding="10"
+        HasShadow="True"
+        CornerRadius="20"
+        HeightRequest="200"
+        WidthRequest="200"
+        Margin="10">
+                            <Image Source="qingque.webp"
+            HeightRequest="500"
+            WidthRequest="500" 
+                                   Margin="10,50,0,0"/>
+                        </Frame>
+
+                        <Label Text="Date Arisa"
+        FontSize="30"
+        TextColor="Red"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        FontAttributes="Bold" />
+
+                        <Frame BorderColor="Gray"
+        BackgroundColor="LightGray"
+        Padding="10"
+        HasShadow="True"
+        CornerRadius="20"
+        HeightRequest="200"
+        WidthRequest="200"
+        Margin="10">
+                            <Image Source="qingv.jpg"
+            HeightRequest="300"
+            WidthRequest="250"
+            Margin="20,40,0,0" />
+                        </Frame>
+
+                        <HorizontalStackLayout>
+                            <Button Text="Character Info"
+             BackgroundColor="Red"
+             TextColor="White"
+             HorizontalOptions="Start"
+             VerticalOptions="End"
+             Clicked="qing"
+             Margin="5" />
+                            <Button Text="Voice Actor Info"
+             BackgroundColor="Green"
+             TextColor="White"
+             HorizontalOptions="End"
+             VerticalOptions="End"
+             Clicked="qingv"
+             Margin="50,0,0,5" />
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Serval -->
+                <Frame BorderColor="Gray"
+BackgroundColor="#1c2140"
+Padding="20"
+HasShadow="True"
+CornerRadius="20"
+HeightRequest="680"
+WidthRequest="350"
+Margin="30">
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Serval"
+        FontSize="30"
+        TextColor="Red"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        FontAttributes="Bold" />
+
+                        <Frame BorderColor="Gray"
+        BackgroundColor="White"
+        Padding="10"
+        HasShadow="True"
+        CornerRadius="20"
+        HeightRequest="200"
+        WidthRequest="200"
+        Margin="10">
+                            <Image Source="serval.webp"
+            HeightRequest="600"
+            WidthRequest="600"
+                                   Margin="0,0,30,0"/>
+                        </Frame>
+
+                        <Label Text="Aimi"
+        FontSize="30"
+        TextColor="Red"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        FontAttributes="Bold" />
+
+                        <Frame BorderColor="Gray"
+        BackgroundColor="LightGray"
+        Padding="10"
+        HasShadow="True"
+        CornerRadius="20"
+        HeightRequest="200"
+        WidthRequest="200"
+        Margin="10">
+                            <Image Source="servalv.jpg"
+            HeightRequest="300"
+            WidthRequest="250"
+            Margin="0,75,0,0" />
+                        </Frame>
+
+                        <HorizontalStackLayout>
+                            <Button Text="Character Info"
+             BackgroundColor="Red"
+             TextColor="White"
+             HorizontalOptions="Start"
+             VerticalOptions="End"
+             Clicked="serval"
+             Margin="5" />
+                            <Button Text="Voice Actor Info"
+             BackgroundColor="Green"
+             TextColor="White"
+             HorizontalOptions="End"
+             VerticalOptions="End"
+             Clicked="servalv"
+             Margin="50,0,0,5" />
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+                </Frame>
+
+
+                <!-- Himeko -->
+                <Frame BorderColor="Gray"
+BackgroundColor="#1c2140"
+Padding="20"
+HasShadow="True"
+CornerRadius="20"
+HeightRequest="680"
+WidthRequest="350"
+Margin="30">
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Himeko"
+        FontSize="30"
+        TextColor="Red"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        FontAttributes="Bold" />
+
+                        <Frame BorderColor="Gray"
+        BackgroundColor="White"
+        Padding="10"
+        HasShadow="True"
+        CornerRadius="20"
+        HeightRequest="200"
+        WidthRequest="200"
+        Margin="10">
+                            <Image Source="himeko.webp"
+            HeightRequest="600"
+            WidthRequest="600" 
+                                   Margin="10,0,0,80"/>
+                        </Frame>
+
+                        <Label Text="Rie Tanaka"
+        FontSize="30"
+        TextColor="Red"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        FontAttributes="Bold" />
+
+                        <Frame BorderColor="Gray"
+        BackgroundColor="LightGray"
+        Padding="10"
+        HasShadow="True"
+        CornerRadius="20"
+        HeightRequest="200"
+        WidthRequest="200"
+        Margin="10">
+                            <Image Source="himekov.jpg"
+            HeightRequest="300"
+            WidthRequest="250"
+            Margin="0,75,0,0" />
+                        </Frame>
+
+                        <HorizontalStackLayout>
+                            <Button Text="Character Info"
+             BackgroundColor="Red"
+             TextColor="White"
+             HorizontalOptions="Start"
+             VerticalOptions="End"
+             Clicked="himeko"
+             Margin="5" />
+                            <Button Text="Voice Actor Info"
+             BackgroundColor="Green"
+             TextColor="White"
+             HorizontalOptions="End"
+             VerticalOptions="End"
+             Clicked="himekov"
+             Margin="50,0,0,5" />
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+                </Frame>
+
+
+                <!-- ปุ่มที่อยู่ข้างล่างขวา -->
+            </VerticalStackLayout>
+        </ScrollView>
+
+
+
+    </Grid>
+</ContentPage>

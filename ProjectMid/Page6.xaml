@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjectMid.Page6"
+             Title="Preservation">
+    <Grid>
+        <!-- ภาพพื้นหลัง -->
+        <Image 
+            Source="bg2.jpg"
+            Aspect="AspectFill"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand" />
+
+        <!-- เนื้อหาที่สามารถเลื่อนดูได้ -->
+        <ScrollView>
+            <VerticalStackLayout>
+
+                <!-- Aventurine -->
+                <Frame 
+                    BorderColor="Gray"
+                    BackgroundColor="#1c2140"
+                    Padding="20"
+                    HasShadow="True"
+                    CornerRadius="20"
+                    HeightRequest="680"
+                    WidthRequest="350"
+                    Margin="30">
+                    <VerticalStackLayout Spacing="5">
+                        <Label 
+                            Text="Aventurine"
+                            FontSize="30"
+                            TextColor="Red"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center"
+                            FontAttributes="Bold" />
+
+                        <Frame 
+                            BorderColor="Gray"
+                            BackgroundColor="White"
+                            Padding="10"
+                            HasShadow="True"
+                            CornerRadius="20"
+                            HeightRequest="200"
+                            WidthRequest="200"
+                            Margin="10"
+                            Opacity="1">
+                            <Image 
+                                Source="aven.webp"
+                                HeightRequest="600"
+                                WidthRequest="600"
+                                Margin="0,70,70,0"/>
+                        </Frame>
+
+                        <Label 
+                            Text="Kawanishi Kengo"
+                            FontSize="30"
+                            TextColor="Red"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center"
+                            FontAttributes="Bold" />
+
+                        <Frame 
+                            BorderColor="Gray"
+                            BackgroundColor="LightGray"
+                            Padding="10"
+                            HasShadow="True"
+                            CornerRadius="20"
+                            HeightRequest="200"
+                            WidthRequest="200"
+                            Margin="10"
+                            Opacity="1">
+                            <Image 
+                                Source="avenv.jpg"
+                                HeightRequest="300"
+                                WidthRequest="250"
+                                Margin="0,75,0,0" />
+                        </Frame>
+
+                        <HorizontalStackLayout>
+                            <Button 
+                                Text="Character Info"
+                                BackgroundColor="Red"
+                                TextColor="White"
+                                HorizontalOptions="Start"
+                                VerticalOptions="End"
+                                Clicked="aven"
+                                Margin="5" />
+                            <Button 
+                                Text="Voice Actor Info"
+                                BackgroundColor="Green"
+                                TextColor="White"
+                                HorizontalOptions="End"
+                                VerticalOptions="End"
+                                Clicked="avenv"
+                                Margin="50,0,0,5" />
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Fu Xuan -->
+                <Frame 
+    BorderColor="Gray"
+    BackgroundColor="#1c2140"
+    Padding="20"
+    HasShadow="True"
+    CornerRadius="20"
+    HeightRequest="680"
+    WidthRequest="350"
+    Margin="30">
+                    <VerticalStackLayout Spacing="5">
+                        <Label 
+            Text="Fu Xuan"
+            FontSize="30"
+            TextColor="Red"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            FontAttributes="Bold" />
+
+                        <Frame 
+            BorderColor="Gray"
+            BackgroundColor="White"
+            Padding="10"
+            HasShadow="True"
+            CornerRadius="20"
+            HeightRequest="200"
+            WidthRequest="200"
+            Margin="10"
+            Opacity="1">
+                            <Image 
+                Source="fu.webp"
+                HeightRequest="500"
+                WidthRequest="500" 
+                                Margin="30,50,0,0"/>
+                        </Frame>
+
+                        <Label 
+            Text="miku ito"
+            FontSize="30"
+            TextColor="Red"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            FontAttributes="Bold" />
+
+                        <Frame 
+            BorderColor="Gray"
+            BackgroundColor="LightGray"
+            Padding="10"
+            HasShadow="True"
+            CornerRadius="20"
+            HeightRequest="200"
+            WidthRequest="200"
+            Margin="10"
+            Opacity="1">
+                            <Image 
+                Source="fuv.jpg"
+                HeightRequest="300"
+                WidthRequest="250"
+                Margin="0 ,20,0,0" />
+                        </Frame>
+
+                        <HorizontalStackLayout>
+                            <Button 
+                Text="Character Info"
+                BackgroundColor="Red"
+                TextColor="White"
+                HorizontalOptions="Start"
+                VerticalOptions="End"
+                Clicked="fu"
+                Margin="5" />
+                            <Button 
+                Text="Voice Actor Info"
+                BackgroundColor="Green"
+                TextColor="White"
+                HorizontalOptions="End"
+                VerticalOptions="End"
+                Clicked="fuv"
+                Margin="50,0,0,5" />
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Trailblazer - The Preservation -->
+                <Frame 
+BorderColor="Gray"
+BackgroundColor="#1c2140"
+Padding="20"
+HasShadow="True"
+CornerRadius="20"
+HeightRequest="680"
+WidthRequest="350"
+Margin="30">
+                    <VerticalStackLayout Spacing="5">
+                        <Label 
+        Text="Trailblazer"
+        FontSize="30"
+        TextColor="Red"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        FontAttributes="Bold" />
+
+                        <Label 
+Text="The Preservation"
+FontSize="30"
+TextColor="Red"
+HorizontalOptions="Center"
+VerticalOptions="Center"
+FontAttributes="Bold" />
+
+                        <Frame 
+        BorderColor="Gray"
+        BackgroundColor="White"
+        Padding="10"
+        HasShadow="True"
+        CornerRadius="20"
+        HeightRequest="200"
+        WidthRequest="200"
+        Margin="10"
+        Opacity="1">
+                            <Image 
+            Source="mc2.gif"
+            HeightRequest="600"
+            WidthRequest="600" />
+                        </Frame>
+
+                        <Label 
+        Text="miku ito"
+        FontSize="30"
+        TextColor="Red"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        FontAttributes="Bold" />
+
+                        <Frame 
+        BorderColor="Gray"
+        BackgroundColor="LightGray"
+        Padding="10"
+        HasShadow="True"
+        CornerRadius="20"
+        HeightRequest="200"
+        WidthRequest="200"
+        Margin="10"
+        Opacity="1">
+                            <Image 
+                        Source="mcm.jpg"
+                        HeightRequest="300"
+                        WidthRequest="250"
+                        Margin="0,75,0,0" />
+                        </Frame>
+
+                        <HorizontalStackLayout>
+                            <Button 
+            Text="Character Info"
+            BackgroundColor="Red"
+            TextColor="White"
+            HorizontalOptions="Start"
+            VerticalOptions="End"
+            Clicked="mc2"
+            Margin="5" />
+                            <Button 
+            Text="Voice Actor Info"
+            BackgroundColor="Green"
+            TextColor="White"
+            HorizontalOptions="End"
+            VerticalOptions="End"
+            Clicked="mc2v"
+            Margin="50,0,0,5" />
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Gepard -->
+                <Frame 
+BorderColor="Gray"
+BackgroundColor="#1c2140"
+Padding="20"
+HasShadow="True"
+CornerRadius="20"
+HeightRequest="680"
+WidthRequest="350"
+Margin="30">
+                    <VerticalStackLayout Spacing="5">
+                        <Label 
+        Text="Gepard"
+        FontSize="30"
+        TextColor="Red"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        FontAttributes="Bold" />
+
+                        <Label 
+Text="The Preservation"
+FontSize="30"
+TextColor="Red"
+HorizontalOptions="Center"
+VerticalOptions="Center"
+FontAttributes="Bold" />
+
+                        <Frame 
+        BorderColor="Gray"
+        BackgroundColor="White"
+        Padding="10"
+        HasShadow="True"
+        CornerRadius="20"
+        HeightRequest="200"
+        WidthRequest="200"
+        Margin="10"
+        Opacity="1">
+                            <Image 
+            Source="gepard.webp"
+            HeightRequest="500"
+            WidthRequest="500" 
+                                Margin="0,0,50,50"/>
+                        </Frame>
+
+                        <Label 
+        Text="Furukawa Makoto"
+        FontSize="30"
+        TextColor="Red"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        FontAttributes="Bold" />
+
+                        <Frame 
+        BorderColor="Gray"
+        BackgroundColor="LightGray"
+        Padding="10"
+        HasShadow="True"
+        CornerRadius="20"
+        HeightRequest="200"
+        WidthRequest="200"
+        Margin="10"
+        Opacity="1">
+                            <Image 
+                        Source="gepardv.jpg"
+                        HeightRequest="400"
+                        WidthRequest="250"
+                        Margin="0,160,50,0" />
+                        </Frame>
+
+                        <HorizontalStackLayout>
+                            <Button 
+            Text="Character Info"
+            BackgroundColor="Red"
+            TextColor="White"
+            HorizontalOptions="Start"
+            VerticalOptions="End"
+            Clicked="ge"
+            Margin="5" />
+                            <Button 
+            Text="Voice Actor Info"
+            BackgroundColor="Green"
+            TextColor="White"
+            HorizontalOptions="End"
+            VerticalOptions="End"
+            Clicked="gev"
+            Margin="50,0,0,5" />
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- March 7th -->
+                <Frame 
+BorderColor="Gray"
+BackgroundColor="#1c2140"
+Padding="20"
+HasShadow="True"
+CornerRadius="20"
+HeightRequest="680"
+WidthRequest="350"
+Margin="30">
+                    <VerticalStackLayout Spacing="5">
+                        <Label 
+        Text="March 7th"
+        FontSize="30"
+        TextColor="Red"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        FontAttributes="Bold" />
+
+                        <Label 
+Text="The Preservation"
+FontSize="30"
+TextColor="Red"
+HorizontalOptions="Center"
+VerticalOptions="Center"
+FontAttributes="Bold" />
+
+                        <Frame 
+        BorderColor="Gray"
+        BackgroundColor="White"
+        Padding="10"
+        HasShadow="True"
+        CornerRadius="20"
+        HeightRequest="200"
+        WidthRequest="200"
+        Margin="10"
+        Opacity="1">
+                            <Image 
+            Source="march1.webp"
+            HeightRequest="500"
+            WidthRequest="500" 
+                                Margin=".0,50,0,0"                              />
+                        </Frame>
+
+                        <Label 
+        Text="Yui Ogura"
+        FontSize="30"
+        TextColor="Red"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        FontAttributes="Bold" />
+
+                        <Frame 
+        BorderColor="Gray"
+        BackgroundColor="LightGray"
+        Padding="10"
+        HasShadow="True"
+        CornerRadius="20"
+        HeightRequest="200"
+        WidthRequest="200"
+        Margin="10"
+        Opacity="1">
+                            <Image 
+                        Source="marchv.jpg"
+                        HeightRequest="300"
+                        WidthRequest="250"
+                        Margin="0,100,0,0" />
+                        </Frame>
+
+                        <HorizontalStackLayout>
+                            <Button 
+            Text="Character Info"
+            BackgroundColor="Red"
+            TextColor="White"
+            HorizontalOptions="Start"
+            VerticalOptions="End"
+            Clicked="ma"
+            Margin="5" />
+                            <Button 
+            Text="Voice Actor Info"
+            BackgroundColor="Green"
+            TextColor="White"
+            HorizontalOptions="End"
+            VerticalOptions="End"
+            Clicked="mav"
+            Margin="50,0,0,5" />
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- ปุ่มที่อยู่ข้างล่างขวา -->
+            </VerticalStackLayout>
+        </ScrollView>
+
+
+
+    </Grid>
+</ContentPage>

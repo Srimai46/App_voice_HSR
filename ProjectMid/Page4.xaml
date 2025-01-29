@@ -1,0 +1,930 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjectMid.Page4"
+             Title="Harmony">
+    <Grid>
+        <!-- ภาพพื้นหลัง -->
+        <Image 
+            Source="bg2.jpg"
+            Aspect="AspectFill"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand" />
+
+        <!-- เนื้อหาที่สามารถเลื่อนดูได้ -->
+        <ScrollView>
+            <VerticalStackLayout>
+
+                <!-- Tribbie -->
+                <Frame 
+                    BorderColor="Gray"
+                    BackgroundColor="#1c2140"
+                    Padding="20"
+                    HasShadow="True"
+                    CornerRadius="20"
+                    HeightRequest="680"
+                    WidthRequest="350"
+                    Margin="30">
+                    <VerticalStackLayout Spacing="5">
+                        <Label 
+                            Text="Tribbie"
+                            FontSize="30"
+                            TextColor="Red"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center"
+                            FontAttributes="Bold" />
+
+                        <Frame 
+                            BorderColor="Gray"
+                            BackgroundColor="White"
+                            Padding="10"
+                            HasShadow="True"
+                            CornerRadius="20"
+                            HeightRequest="200"
+                            WidthRequest="200"
+                            Margin="10"
+                            Opacity="1">
+                            <Image 
+                                Source="tribie.png"
+                                HeightRequest="500"
+                                WidthRequest="500" />
+                        </Frame>
+
+                        <Label 
+                            Text="Hikaru Tono"
+                            FontSize="30"
+                            TextColor="Red"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center"
+                            FontAttributes="Bold" />
+
+                        <Frame 
+                            BorderColor="Gray"
+                            BackgroundColor="LightGray"
+                            Padding="10"
+                            HasShadow="True"
+                            CornerRadius="20"
+                            HeightRequest="200"
+                            WidthRequest="200"
+                            Margin="10"
+                            Opacity="1">
+                            <Image 
+                                Source="tribbiev.webp"
+                                HeightRequest="300"
+                                WidthRequest="250"
+                                Margin="0,75,10,0" />
+                        </Frame>
+
+                        <HorizontalStackLayout>
+                            <Button 
+                                Text="Character Info"
+                                BackgroundColor="Red"
+                                TextColor="White"
+                                HorizontalOptions="Start"
+                                VerticalOptions="End"
+                                Clicked="tri"
+                                Margin="5" />
+                            <Button 
+                                Text="Voice Actor Info"
+                                BackgroundColor="Green"
+                                TextColor="White"
+                                HorizontalOptions="End"
+                                VerticalOptions="End"
+                                Clicked="triv"
+                                Margin="50,0,0,5" />
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Sunday -->
+                <Frame 
+     BorderColor="Gray"
+     BackgroundColor="#1c2140"
+     Padding="20"
+     HasShadow="True"
+     CornerRadius="20"
+     HeightRequest="680"
+     WidthRequest="350"
+     Margin="30">
+                    <VerticalStackLayout Spacing="5">
+                        <Label 
+             Text="Sunday"
+             FontSize="30"
+             TextColor="Red"
+             HorizontalOptions="Center"
+             VerticalOptions="Center"
+             FontAttributes="Bold" />
+
+                        <Frame 
+             BorderColor="Gray"
+             BackgroundColor="White"
+             Padding="10"
+             HasShadow="True"
+             CornerRadius="20"
+             HeightRequest="200"
+             WidthRequest="200"
+             Margin="10"
+             Opacity="1">
+                            <Image 
+                 Source="sunday.webp"
+                 HeightRequest="500"
+                 WidthRequest="500" 
+                                Margin="0,100,0,0"/>
+                        </Frame>
+
+                        <Label 
+             Text="Otsuka Takeo"
+             FontSize="30"
+             TextColor="Red"
+             HorizontalOptions="Center"
+             VerticalOptions="Center"
+             FontAttributes="Bold" />
+
+                        <Frame 
+             BorderColor="Gray"
+             BackgroundColor="LightGray"
+             Padding="10"
+             HasShadow="True"
+             CornerRadius="20"
+             HeightRequest="200"
+             WidthRequest="200"
+             Margin="10"
+             Opacity="1">
+                            <Image 
+                 Source="sundatv.webp"
+                 HeightRequest="300"
+                 WidthRequest="250"
+                 Margin="10,90,0,0" />
+                        </Frame>
+
+                        <HorizontalStackLayout>
+                            <Button 
+                 Text="Character Info"
+                 BackgroundColor="Red"
+                 TextColor="White"
+                 HorizontalOptions="Start"
+                 VerticalOptions="End"
+                 Clicked="sun"
+                 Margin="5" />
+                            <Button 
+                 Text="Voice Actor Info"
+                 BackgroundColor="Green"
+                 TextColor="White"
+                 HorizontalOptions="End"
+                 VerticalOptions="End"
+                 Clicked="sunv"
+                 Margin="50,0,0,5" />
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Trailblazer - The Harmony
+ -->
+                <Frame 
+BorderColor="Gray"
+BackgroundColor="#1c2140"
+Padding="20"
+HasShadow="True"
+CornerRadius="20"
+HeightRequest="680"
+WidthRequest="350"
+Margin="30">
+                    <VerticalStackLayout Spacing="5">
+                        <Label 
+        Text="Trailblazer - The Harmony"
+        FontSize="30"
+        TextColor="Red"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        FontAttributes="Bold" />
+
+                        <Frame 
+        BorderColor="Gray"
+        BackgroundColor="White"
+        Padding="10"
+        HasShadow="True"
+        CornerRadius="20"
+        HeightRequest="200"
+        WidthRequest="200"
+        Margin="10"
+        Opacity="1">
+                            <Image 
+            Source="mc3.gif"
+            HeightRequest="500"
+            WidthRequest="500" 
+                                Margin="0,0,20,20"/>
+                        </Frame>
+
+                        <Label 
+        Text="Yui Ishikawa"
+        FontSize="30"
+        TextColor="Red"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        FontAttributes="Bold" />
+
+                        <Frame 
+        BorderColor="Gray"
+        BackgroundColor="LightGray"
+        Padding="10"
+        HasShadow="True"
+        CornerRadius="20"
+        HeightRequest="200"
+        WidthRequest="200"
+        Margin="10"
+        Opacity="1">
+                            <Image 
+            Source="mcf.webp"
+            HeightRequest="300"
+            WidthRequest="250"
+            Margin="0,75,0,0" />
+                        </Frame>
+
+                        <HorizontalStackLayout>
+                            <Button 
+            Text="Character Info"
+            BackgroundColor="Red"
+            TextColor="White"
+            HorizontalOptions="Start"
+            VerticalOptions="End"
+            Clicked="mc3"
+            Margin="5" />
+                            <Button 
+            Text="Voice Actor Info"
+            BackgroundColor="Green"
+            TextColor="White"
+            HorizontalOptions="End"
+            VerticalOptions="End"
+            Clicked="mc3v"
+            Margin="50,0,0,5" />
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Robin -->
+                <Frame 
+BorderColor="Gray"
+BackgroundColor="#1c2140"
+Padding="20"
+HasShadow="True"
+CornerRadius="20"
+HeightRequest="680"
+WidthRequest="350"
+Margin="30">
+                    <VerticalStackLayout Spacing="5">
+                        <Label 
+        Text="Robin"
+        FontSize="30"
+        TextColor="Red"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        FontAttributes="Bold" />
+
+                        <Frame 
+        BorderColor="Gray"
+        BackgroundColor="White"
+        Padding="10"
+        HasShadow="True"
+        CornerRadius="20"
+        HeightRequest="200"
+        WidthRequest="200"
+        Margin="10"
+        Opacity="1">
+                            <Image 
+            Source="robin.webp"
+            HeightRequest="500"
+            WidthRequest="500" 
+                                Margin="10,100,0,0"/>
+                        </Frame>
+
+                        <Label 
+        Text="Chevy"
+        FontSize="30"
+        TextColor="Red"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        FontAttributes="Bold" />
+
+                        <Frame 
+        BorderColor="Gray"
+        BackgroundColor="LightGray"
+        Padding="10"
+        HasShadow="True"
+        CornerRadius="20"
+        HeightRequest="200"
+        WidthRequest="200"
+        Margin="10"
+        Opacity="1">
+                            <Image 
+            Source="robinv.webp"
+            HeightRequest="300"
+            WidthRequest="250"
+            Margin="0,100,0,0" />
+                        </Frame>
+
+                        <HorizontalStackLayout>
+                            <Button 
+            Text="Character Info"
+            BackgroundColor="Red"
+            TextColor="White"
+            HorizontalOptions="Start"
+            VerticalOptions="End"
+            Clicked="ro"
+            Margin="5" />
+                            <Button 
+            Text="Voice Actor Info"
+            BackgroundColor="Green"
+            TextColor="White"
+            HorizontalOptions="End"
+            VerticalOptions="End"
+            Clicked="rov"
+            Margin="50,0,0,5" />
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+                </Frame>
+
+
+                <!-- Sparkle -->
+                <Frame 
+BorderColor="Gray"
+BackgroundColor="#1c2140"
+Padding="20"
+HasShadow="True"
+CornerRadius="20"
+HeightRequest="680"
+WidthRequest="350"
+Margin="30">
+                    <VerticalStackLayout Spacing="5">
+                        <Label 
+        Text="Sparkle"
+        FontSize="30"
+        TextColor="Red"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        FontAttributes="Bold" />
+
+                        <Frame 
+        BorderColor="Gray"
+        BackgroundColor="White"
+        Padding="10"
+        HasShadow="True"
+        CornerRadius="20"
+        HeightRequest="200"
+        WidthRequest="200"
+        Margin="10"
+        Opacity="1">
+                            <Image 
+            Source="sparkle.webp"
+            HeightRequest="500"
+            WidthRequest="500" 
+                                Margin="0,50,0,0"/>
+                        </Frame>
+
+                        <Label 
+        Text="Ueda Reina"
+        FontSize="30"
+        TextColor="Red"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        FontAttributes="Bold" />
+
+                        <Frame 
+        BorderColor="Gray"
+        BackgroundColor="LightGray"
+        Padding="10"
+        HasShadow="True"
+        CornerRadius="20"
+        HeightRequest="200"
+        WidthRequest="200"
+        Margin="10"
+        Opacity="1">
+                            <Image 
+            Source="sparklev.webp"
+            HeightRequest="300"
+            WidthRequest="250"
+            Margin="0,75,0,0" />
+                        </Frame>
+
+                        <HorizontalStackLayout>
+                            <Button 
+            Text="Character Info"
+            BackgroundColor="Red"
+            TextColor="White"
+            HorizontalOptions="Start"
+            VerticalOptions="End"
+            Clicked="spa"
+            Margin="5" />
+                            <Button 
+            Text="Voice Actor Info"
+            BackgroundColor="Green"
+            TextColor="White"
+            HorizontalOptions="End"
+            VerticalOptions="End"
+            Clicked="spav"
+            Margin="50,0,0,5" />
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Ruan Mei
+ -->
+                <Frame 
+BorderColor="Gray"
+BackgroundColor="#1c2140"
+Padding="20"
+HasShadow="True"
+CornerRadius="20"
+HeightRequest="680"
+WidthRequest="350"
+Margin="30">
+                    <VerticalStackLayout Spacing="5">
+                        <Label 
+        Text="Ruan Mei"
+        FontSize="30"
+        TextColor="Red"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        FontAttributes="Bold" />
+
+                        <Frame 
+        BorderColor="Gray"
+        BackgroundColor="White"
+        Padding="10"
+        HasShadow="True"
+        CornerRadius="20"
+        HeightRequest="200"
+        WidthRequest="200"
+        Margin="10"
+        Opacity="1">
+                            <Image 
+            Source="ruanmei.webp"
+            HeightRequest="500"
+            WidthRequest="500" 
+                                Margin="0,0,20,0"/>
+                        </Frame>
+
+                        <Label 
+        Text="Onishi Saori"
+        FontSize="30"
+        TextColor="Red"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        FontAttributes="Bold" />
+
+                        <Frame 
+        BorderColor="Gray"
+        BackgroundColor="LightGray"
+        Padding="10"
+        HasShadow="True"
+        CornerRadius="20"
+        HeightRequest="200"
+        WidthRequest="200"
+        Margin="10"
+        Opacity="1">
+                            <Image 
+            Source="ruanmeiv.webp"
+            HeightRequest="300"
+            WidthRequest="250"
+            Margin="0,75,0,0" />
+                        </Frame>
+
+                        <HorizontalStackLayout>
+                            <Button 
+            Text="Character Info"
+            BackgroundColor="Red"
+            TextColor="White"
+            HorizontalOptions="Start"
+            VerticalOptions="End"
+            Clicked="ruan"
+            Margin="5" />
+                            <Button 
+            Text="Voice Actor Info"
+            BackgroundColor="Green"
+            TextColor="White"
+            HorizontalOptions="End"
+            VerticalOptions="End"
+            Clicked="ruanv"
+            Margin="50,0,0,5" />
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Hanya-->
+                <Frame 
+BorderColor="Gray"
+BackgroundColor="#1c2140"
+Padding="20"
+HasShadow="True"
+CornerRadius="20"
+HeightRequest="680"
+WidthRequest="350"
+Margin="30">
+                    <VerticalStackLayout Spacing="5">
+                        <Label 
+        Text="Hanya"
+        FontSize="30"
+        TextColor="Red"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        FontAttributes="Bold" />
+
+                        <Frame 
+        BorderColor="Gray"
+        BackgroundColor="White"
+        Padding="10"
+        HasShadow="True"
+        CornerRadius="20"
+        HeightRequest="200"
+        WidthRequest="200"
+        Margin="10"
+        Opacity="1">
+                            <Image 
+            Source="hanya.webp"
+            HeightRequest="500"
+            WidthRequest="500" 
+                                Margin="0,75,0,0"/>
+                        </Frame>
+
+                        <Label 
+        Text="Sayumi Suzushiro"
+        FontSize="30"
+        TextColor="Red"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        FontAttributes="Bold" />
+
+                        <Frame 
+        BorderColor="Gray"
+        BackgroundColor="LightGray"
+        Padding="10"
+        HasShadow="True"
+        CornerRadius="20"
+        HeightRequest="200"
+        WidthRequest="200"
+        Margin="10"
+        Opacity="1">
+                            <Image 
+            Source="hanyav.jpg"
+            HeightRequest="300"
+            WidthRequest="250"
+            Margin="0,50,0,0" />
+                        </Frame>
+
+                        <HorizontalStackLayout>
+                            <Button 
+            Text="Character Info"
+            BackgroundColor="Red"
+            TextColor="White"
+            HorizontalOptions="Start"
+            VerticalOptions="End"
+            Clicked="hanya"
+            Margin="5" />
+                            <Button 
+            Text="Voice Actor Info"
+            BackgroundColor="Green"
+            TextColor="White"
+            HorizontalOptions="End"
+            VerticalOptions="End"
+            Clicked="hanyav"
+            Margin="50,0,0,5" />
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Yukong -->
+                <Frame 
+BorderColor="Gray"
+BackgroundColor="#1c2140"
+Padding="20"
+HasShadow="True"
+CornerRadius="20"
+HeightRequest="680"
+WidthRequest="350"
+Margin="30">
+                    <VerticalStackLayout Spacing="5">
+                        <Label 
+        Text="Yukong"
+        FontSize="30"
+        TextColor="Red"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        FontAttributes="Bold" />
+
+                        <Frame 
+        BorderColor="Gray"
+        BackgroundColor="White"
+        Padding="10"
+        HasShadow="True"
+        CornerRadius="20"
+        HeightRequest="200"
+        WidthRequest="200"
+        Margin="10"
+        Opacity="1">
+                            <Image 
+            Source="yukong.webp"
+            HeightRequest="500"
+            WidthRequest="500"
+                                Margin="20,40,0,0"/>
+                        </Frame>
+
+                        <Label 
+        Text="Yumi Toma"
+        FontSize="30"
+        TextColor="Red"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        FontAttributes="Bold" />
+
+                        <Frame 
+        BorderColor="Gray"
+        BackgroundColor="LightGray"
+        Padding="10"
+        HasShadow="True"
+        CornerRadius="20"
+        HeightRequest="200"
+        WidthRequest="200"
+        Margin="10"
+        Opacity="1">
+                            <Image 
+            Source="yukongv.webp"
+            HeightRequest="350"
+            WidthRequest="250"
+            Margin="0,125,10,0" />
+                        </Frame>
+
+                        <HorizontalStackLayout>
+                            <Button 
+            Text="Character Info"
+            BackgroundColor="Red"
+            TextColor="White"
+            HorizontalOptions="Start"
+            VerticalOptions="End"
+            Clicked="yu"
+            Margin="5" />
+                            <Button 
+            Text="Voice Actor Info"
+            BackgroundColor="Green"
+            TextColor="White"
+            HorizontalOptions="End"
+            VerticalOptions="End"
+            Clicked="yuv"
+            Margin="50,0,0,5" />
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Tingyun -->
+                <Frame 
+BorderColor="Gray"
+BackgroundColor="#1c2140"
+Padding="20"
+HasShadow="True"
+CornerRadius="20"
+HeightRequest="680"
+WidthRequest="350"
+Margin="30">
+                    <VerticalStackLayout Spacing="5">
+                        <Label 
+        Text="Tingyun"
+        FontSize="30"
+        TextColor="Red"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        FontAttributes="Bold" />
+
+                        <Frame 
+        BorderColor="Gray"
+        BackgroundColor="White"
+        Padding="10"
+        HasShadow="True"
+        CornerRadius="20"
+        HeightRequest="200"
+        WidthRequest="200"
+        Margin="10"
+        Opacity="1">
+                            <Image 
+            Source="tingyun.webp"
+            HeightRequest="500"
+            WidthRequest="500" 
+                                Margin="0,125,20,0"/>
+                        </Frame>
+
+                        <Label 
+        Text="Takada Yuki"
+        FontSize="30"
+        TextColor="Red"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        FontAttributes="Bold" />
+
+                        <Frame 
+        BorderColor="Gray"
+        BackgroundColor="LightGray"
+        Padding="10"
+        HasShadow="True"
+        CornerRadius="20"
+        HeightRequest="200"
+        WidthRequest="200"
+        Margin="10"
+        Opacity="1">
+                            <Image 
+            Source="dreadv.webp"
+            HeightRequest="300"
+            WidthRequest="250"
+            Margin="0,75,0,0" />
+                        </Frame>
+
+                        <HorizontalStackLayout>
+                            <Button 
+            Text="Character Info"
+            BackgroundColor="Red"
+            TextColor="White"
+            HorizontalOptions="Start"
+            VerticalOptions="End"
+            Clicked="ting"
+            Margin="5" />
+                            <Button 
+            Text="Voice Actor Info"
+            BackgroundColor="Green"
+            TextColor="White"
+            HorizontalOptions="End"
+            VerticalOptions="End"
+            Clicked="tingv"
+            Margin="50,0,0,5" />
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Bronya -->
+                <Frame 
+BorderColor="Gray"
+BackgroundColor="#1c2140"
+Padding="20"
+HasShadow="True"
+CornerRadius="20"
+HeightRequest="680"
+WidthRequest="350"
+Margin="30">
+                    <VerticalStackLayout Spacing="5">
+                        <Label 
+        Text="Bronya"
+        FontSize="30"
+        TextColor="Red"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        FontAttributes="Bold" />
+
+                        <Frame 
+        BorderColor="Gray"
+        BackgroundColor="White"
+        Padding="10"
+        HasShadow="True"
+        CornerRadius="20"
+        HeightRequest="200"
+        WidthRequest="200"
+        Margin="10"
+        Opacity="1">
+                            <Image 
+            Source="bronya.webp"
+            HeightRequest="600"
+            WidthRequest="600" 
+                                Margin="45,0,0,80"/>
+                        </Frame>
+
+                        <Label 
+        Text="Kana Asumi"
+        FontSize="30"
+        TextColor="Red"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        FontAttributes="Bold" />
+
+                        <Frame 
+        BorderColor="Gray"
+        BackgroundColor="LightGray"
+        Padding="10"
+        HasShadow="True"
+        CornerRadius="20"
+        HeightRequest="200"
+        WidthRequest="200"
+        Margin="10"
+        Opacity="1">
+                            <Image 
+            Source="outv.webp"
+            HeightRequest="300"
+            WidthRequest="250"
+            Margin="0,100,0,0" />
+                        </Frame>
+
+                        <HorizontalStackLayout>
+                            <Button 
+            Text="Character Info"
+            BackgroundColor="Red"
+            TextColor="White"
+            HorizontalOptions="Start"
+            VerticalOptions="End"
+            Clicked="bro"
+            Margin="5" />
+                            <Button 
+            Text="Voice Actor Info"
+            BackgroundColor="Green"
+            TextColor="White"
+            HorizontalOptions="End"
+            VerticalOptions="End"
+            Clicked="brov"
+            Margin="50,0,0,5" />
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Asta -->
+                <Frame 
+BorderColor="Gray"
+BackgroundColor="#1c2140"
+Padding="20"
+HasShadow="True"
+CornerRadius="20"
+HeightRequest="680"
+WidthRequest="350"
+Margin="30">
+                    <VerticalStackLayout Spacing="5">
+                        <Label 
+        Text="Asta"
+        FontSize="30"
+        TextColor="Red"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        FontAttributes="Bold" />
+
+                        <Frame 
+        BorderColor="Gray"
+        BackgroundColor="White"
+        Padding="10"
+        HasShadow="True"
+        CornerRadius="20"
+        HeightRequest="200"
+        WidthRequest="200"
+        Margin="10"
+        Opacity="1">
+                            <Image 
+            Source="asta.webp"
+            HeightRequest="500"
+            WidthRequest="500" />
+                        </Frame>
+
+                        <Label 
+        Text="Chinatsu Akasaki"
+        FontSize="30"
+        TextColor="Red"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        FontAttributes="Bold" />
+
+                        <Frame 
+        BorderColor="Gray"
+        BackgroundColor="LightGray"
+        Padding="10"
+        HasShadow="True"
+        CornerRadius="20"
+        HeightRequest="200"
+        WidthRequest="200"
+        Margin="10"
+        Opacity="1">
+                            <Image 
+            Source="astav.webp"
+            HeightRequest="300"
+            WidthRequest="250"
+            Margin="0,75,0,0" />
+                        </Frame>
+
+                        <HorizontalStackLayout>
+                            <Button 
+            Text="Character Info"
+            BackgroundColor="Red"
+            TextColor="White"
+            HorizontalOptions="Start"
+            VerticalOptions="End"
+            Clicked="asta"
+            Margin="5" />
+                            <Button 
+            Text="Voice Actor Info"
+            BackgroundColor="Green"
+            TextColor="White"
+            HorizontalOptions="End"
+            VerticalOptions="End"
+            Clicked="astav"
+            Margin="50,0,0,5" />
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+                </Frame>
+
+
+
+                <!-- ปุ่มที่อยู่ข้างล่างขวา -->                                   
+            </VerticalStackLayout>
+        </ScrollView>
+
+
+
+    </Grid>
+</ContentPage>
